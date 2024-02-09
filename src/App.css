@@ -1,0 +1,14 @@
+
+.body {
+  margin:0;
+  width:100vw;
+  height:100vh;
+  overflow: hidden;
+  background-color:#222225;
+  display:flex;
+  justify-content: center;
+
+}
+.text{
+  color:#F05454;
+}
