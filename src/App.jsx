@@ -10,7 +10,7 @@ function App() {
       <div className="max-w-md w-full space-y-8">
         <BrowserRouter>
           <Routes>
-            <Route path="/login" element={<LoginPage />} />
+            <Route path="/" element={<LoginPage />} />
             <Route path="/registration" element={<SignupPage />} />
             {/* <Route path="/files" element={<Files />} /> */}
           </Routes>

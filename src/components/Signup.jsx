@@ -41,7 +41,7 @@ export default function Signup() {
         // console.log(response);
         storeToken(responseData.token);
 
-        navigate("/login");
+        window.location.href = "/";
         toast.success("Registration successful");
       } else {
         toast.error(responseData.extraDetails);

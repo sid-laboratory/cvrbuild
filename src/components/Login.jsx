@@ -23,7 +23,7 @@ export default function Login() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch("http://localhost:1212/login", {
+      const response = await fetch("http://localhost:1212/", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -41,7 +41,7 @@ export default function Login() {
           password: "",
         });
         storeToken(responseData.token);
-        window.location.href = "https://cvr-bitbuild.onrender.com/";
+        window.location.href = "/home";
         toast.success("login successful");
       } else {
         toast.error(responseData.extraDetails);
