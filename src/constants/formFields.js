@@ -23,12 +23,12 @@ const loginFields=[
 
 const signupFields=[
   {
-      labelText:"Username",
-      labelFor:"username",
-      id:"username",
-      name:"username",
+      labelText:"Name",
+      labelFor:"name",
+      id:"name",
+      name:"name",
       type:"text",
-      autoComplete:"username",
+      autoComplete:"name",
       isRequired:true,
       placeholder:"Username"   
   },

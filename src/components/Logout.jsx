@@ -8,6 +8,7 @@ export default function Logout() {
   useEffect(() => {
     if (isLoggedIn) {
       logout();
+
     }
   }, [isLoggedIn, logout]);
 

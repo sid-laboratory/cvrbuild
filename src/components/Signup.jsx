@@ -48,6 +48,7 @@ export default function Signup() {
       }
     } catch (error) {
       console.log("register", error);
+      toast.error(responseData.extraDetails);
     }
   };
 
