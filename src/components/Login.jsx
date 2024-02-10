@@ -48,6 +48,7 @@ export default function Login() {
         console.log("login failed");
       }
     } catch (error) {
+      toast.error(responseData.extraDetails);
       console.log("login", error);
     }
   };
